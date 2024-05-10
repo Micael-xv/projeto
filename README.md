@@ -1,11 +1,9 @@
-<h1 align="center"> DevLinks </h1>
-
 <p align="center">
+<h1 align="center"> DevLinks </h1>
 Programa WEB. <br/>
-<h1 align="center"> DevLinks </h1>
 
 <p align="center">
-   Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
+   Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB.
 </p>
 
 <p align="center">
