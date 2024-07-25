@@ -28,6 +28,7 @@ body {
   /*Agrupar tudo em uma propriedade*/
   /*background: color image  repeat position/size*/
   background: var(--bg-url) no-repeat top center/cover;
+  height: 100vh;
 }
 
 /*body com * significa que ele Vai aplicar para todos os elementos dentro do body*/
@@ -158,4 +159,16 @@ footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queries */
+@media (min-width: 700px) { /* só funciona quando tem a <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  */
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
