@@ -5,6 +5,19 @@
   box-sizing: border-box;
 }
 
+.efeito {
+  animation: slideY 2s;
+}
+
+@keyframes slideY {
+  from {
+    transform: translateY(90px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
